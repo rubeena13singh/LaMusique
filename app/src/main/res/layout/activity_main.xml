@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.android.lamusique.MainActivity">
+
+    <TextView
+        style="@style/MenuStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the La Musique music app." />
+
+    <TextView
+        android:id="@+id/nowPlaying"
+        style="@style/CategoryStyle"
+        android:background="@color/text1"
+        android:text="@string/text1" />
+
+    <TextView
+        android:id="@+id/songDetail"
+        style="@style/CategoryStyle"
+        android:background="@color/text2"
+        android:text="@string/text2" />
+
+    <TextView
+        android:id="@+id/musicLibrary"
+        style="@style/CategoryStyle"
+        android:background="@color/text3"
+        android:text="@string/text3" />
+
+    <TextView
+        android:id="@+id/playLists"
+        style="@style/CategoryStyle"
+        android:background="@color/text4"
+        android:text="@string/text4" />
+
+    <TextView
+        android:id="@+id/payment"
+        style="@style/CategoryStyle"
+        android:background="@color/text5"
+        android:text="@string/text5" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="browser"
+            android:text="help" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="play"
+            android:text="play" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

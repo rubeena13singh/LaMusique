@@ -1,0 +1,34 @@
+<resources>
+    <string name="button1">play</string>
+    <string name="buy">Buy</string>
+    <string name="pay1">Netbanking</string>
+    <string name="pay2">Credit/Debit card</string>
+    <string name="pay3">Paytm</string>
+
+    <string name="app_name">La Musique</string>
+    <string name="text1">Now playing</string>
+    <string name="text2">Song detail screen</string>
+    <string name="text3">Music library</string>
+    <string name="text4">Playlists</string>
+    <string name="text5">Payment</string>
+
+    <string name="nowPlaying">NOW PLAYING. Here you can play,  pause, stop the currently playing song.
+        You can also play the previous song or the next song in the list. You can also visit the other libraries such as music
+        library, song detail screen and playlists just by clicking on the appropriate button.</string>
+    <string name="songDetail">SONG DETAIL. Information of the selected song. Here you can see all the information about the song you have
+    selected such as song name, artist name and also the album name. You can also traverse to different libraries within the app
+    without using your device back button.</string>
+    <string name="musicLibrary">MUSIC LIBRARY. All your songs at one place. Here you see the list of all you songs by clicking on the
+        "SHOW ALL SONGS" button. You can select your favorite song from the entire list of songs to play music.
+    To see the currently playing song ot the song details or to see in which playlist you have added this song,
+    you can use the last three buttons respectively.</string>
+    <string name="playLists">PLAYLISTS. Here you see all your customised playlists. Click on the playlist button
+     to open the list. Then you can add or remove the songs from your list and listen to music. You can even create new playlist
+    by clickin on the + button.</string>
+    <string name="payment">PAYMENT. Here you can buy new songs of your choice. The song details are displayed below. Click on the
+        buy button to add this song to your music library. You can even select various modes for payment.</string>
+
+    <string name="play1">Playlist 1</string>
+    <string name="play2">Playlist 2</string>
+    <string name="play3">Playlist 3</string>
+</resources>
